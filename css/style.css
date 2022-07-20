@@ -23,12 +23,49 @@
 }
 
 /* --------------------BASIC--------------------- */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+address {
+  font-style: normal;
+}
+/* ====================================== */
 body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
   color: var(--primary-color-text);
   background-color: #ffffff;
+}
+
+.container {
+  /* width: 100%;
+  max-width: 1200px; */
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
+}
+
+.section {
 }
 
 .list {
@@ -65,6 +102,30 @@ body {
 /* --------------------header--------------------- */
 
 /* --------------------LOGO-------------*/
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  margin-left: 95px;
+  gap: 50px;
+}
+.header-contact {
+  display: flex;
+  margin-left: auto;
+}
+.header-contact-item:last-child {
+  margin-left: 50px;
+}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -110,6 +171,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
+  align-items: center;
   color: var(--hero-title-color);
 }
 
@@ -135,7 +198,13 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
+
+.features-list {
+  display: flex;
+}
+
 .features-text {
   font-size: 14px;
   line-height: 1.71;
@@ -146,6 +215,11 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
+}
+.service-list {
+  display: flex;
+  gap: 30px;
 }
 
 /* ------------------TEAM------------------- */
@@ -160,6 +234,10 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+}
+.team-list {
+  display: flex;
+  gap: 30px;
 }
 .team-link-title {
   font-weight: 500;
@@ -184,11 +262,14 @@ body {
 .footer .logo-bottom {
   color: var(--footer-logo-studio);
 }
+.footer-conteiner > .logo {
+  margin-bottom: 20px;
+}
 .footer-link {
   font-size: 14px;
   line-height: 1.71;
   color: var(--footer-link-color);
-  font-style: normal;
+  /* font-style: normal; */
 }
 .footer-item .city {
   font-size: 14px;
