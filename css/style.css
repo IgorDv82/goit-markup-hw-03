@@ -291,6 +291,7 @@ body {
   margin-bottom: 20px;
 }
 .footer-list {
+  min-width: 230px;
   margin-top: 20px;
 }
 .footer-link {
@@ -303,6 +304,8 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--footer-logo-studio);
+  display: inline-block;
+  min-width: ;
 }
 
 .footer-link:hover,
@@ -334,7 +337,14 @@ body {
 .portfolio-item {
   background-color: #ffffff;
 } */
-
+.filter-list {
+  display: flex;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+}
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
