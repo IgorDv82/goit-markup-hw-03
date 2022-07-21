@@ -66,6 +66,8 @@ body {
 }
 
 .section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .list {
@@ -164,13 +166,23 @@ body {
 .hero {
   background-color: var(--hero-background-color);
 }
+
+.hero > .container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  align-items: center;
+}
 .hero-title {
+  max-width: 700px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
   align-items: center;
   color: var(--hero-title-color);
@@ -180,9 +192,10 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
+  display: block;
   letter-spacing: 0.06em;
+  margin: 0 auto;
+  padding: 0;
   background-color: var(--accent-color);
   color: var(--hero-title-color);
 }
@@ -204,7 +217,10 @@ body {
 .features-list {
   display: flex;
 }
-
+.features-item {
+  max-width: 270px;
+  padding: 0;
+}
 .features-text {
   font-size: 14px;
   line-height: 1.71;
@@ -216,6 +232,7 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-bottom: 50px;
 }
 .service-list {
   display: flex;
@@ -234,6 +251,7 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-bottom: 50px;
 }
 .team-list {
   display: flex;
@@ -244,6 +262,8 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .team-link-text {
   font-size: 16px;
@@ -254,16 +274,24 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 30px;
 }
 /* ------------------FOOTER------------------- */
 .footer {
   background-color: var(--footer-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer .logo-bottom {
   color: var(--footer-logo-studio);
 }
-.footer-conteiner > .logo {
+
+.footer .logo {
+  min-width: 145px;
   margin-bottom: 20px;
+}
+.footer-list {
+  margin-top: 20px;
 }
 .footer-link {
   font-size: 14px;
