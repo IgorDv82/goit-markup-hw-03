@@ -101,17 +101,20 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-/* --------------------header--------------------- */
+/* -------------------------------------------- */
+/* --------------------header------------------ */
 
-/* --------------------LOGO-------------*/
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
+  background-color: lawngreen;
 }
+
 .header-container {
   display: flex;
   align-items: center;
 }
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -128,7 +131,11 @@ body {
 .header-contact-item:last-child {
   margin-left: 50px;
 }
+
+/* ----logo--- */
+/* ----------- */
 .logo {
+  width: 145px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -139,7 +146,10 @@ body {
 .header-nav .logo-top {
   color: var(--header-logo-studio);
 }
-/* ------------------------------------- */
+/* ------------ */
+/* ------------ */
+
+
 .header-list .current {
   color: var(--accent-color);
 }
@@ -162,29 +172,30 @@ body {
 .header-contact-link:focus {
   color: var(--accent-color);
 }
+/* -------------------END----------------------- */
+
+/* --------------------------------------------- */
 /* --------------------HERO--------------------- */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--hero-background-color);
 }
 
 .hero > .container {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  align-items: center;
+ 
 }
 .hero-title {
-  max-width: 700px;
+  max-width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding: 0;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  align-items: center;
   color: var(--hero-title-color);
 }
 
@@ -194,6 +205,8 @@ body {
   line-height: 1.88;
   display: block;
   letter-spacing: 0.06em;
+  min-width: 200px;
+  height: 50px;
   margin: 0 auto;
   padding: 0;
   background-color: var(--accent-color);
@@ -204,8 +217,13 @@ body {
 .hero-btn:focus {
   background-color: var(--hero-button-accent);
 }
+/* -------------------END----------------------- */
 
+/* --------------------------------------------- */
 /* --------------------FEATURES------------------ */
+.features {
+  background-color: tomato;
+}
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -216,22 +234,29 @@ body {
 
 .features-list {
   display: flex;
+  gap: 30px;
 }
 .features-item {
   max-width: 270px;
-  padding: 0;
 }
 .features-text {
   font-size: 14px;
   line-height: 1.71;
 }
+/* -------------------END----------------------- */
 
+/* --------------------------------------------- */
 /* ------------------SERVICE------------------- */
+.service {
+  background-color: teal;
+}
 .service-title {
+  width: 376px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 50px;
 }
 .service-list {
@@ -247,10 +272,12 @@ body {
   background-color: var(--team-person-background);
 }
 .team-title {
+  width: 264px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 50px;
 }
 .team-list {
@@ -282,23 +309,23 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer-address {
+  width: 231px;
+}
 .footer .logo-bottom {
   color: var(--footer-logo-studio);
 }
 
 .footer .logo {
-  min-width: 145px;
+  display: inline-block;
+  width: 145px;
   margin-bottom: 20px;
 }
-.footer-list {
-  min-width: 230px;
-  margin-top: 20px;
-}
+
 .footer-link {
   font-size: 14px;
   line-height: 1.71;
   color: var(--footer-link-color);
-  /* font-style: normal; */
 }
 .footer-item .city {
   font-size: 14px;
@@ -312,7 +339,9 @@ body {
 .footer-link:focus {
   color: var(--accent-color);
 }
-/* -------PORTFOLIO.INDEX----- */
+/* -------------------END----------------------- */
+
+/* -------------PORTFOLIO.INDEX--------------- */
 /* ------------------FILTER------------------- */
 
 .filter-button {
