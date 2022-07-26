@@ -1,2 +1,1 @@
-# goit-markup-hw-01
-Репозиторій для першого ДЗ
+# goit-markup-hw-03
