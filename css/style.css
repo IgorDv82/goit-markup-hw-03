@@ -10,8 +10,9 @@
   --footer-link-color: rgba(255, 255, 255, 0.6);
 
   --hero-title-color: #ffffff;
-  --hero-background-color: #2f303a;
+  --hero-background-color: #c4c4c4;
   --hero-button-accent: #188ce8;
+  --hero-overlay-color: rgba(47, 48, 58, 0.4);
 
   --section-team-background: #f5f4fa;
   --team-person-background: #ffffff;
@@ -20,6 +21,17 @@
   --portfolio-button-hover-color: #ffffff;
 
   --portfolio-item-background: #eeeeee;
+  /* --------ICONS--------- */
+  --features-icon-backround: #f5f4fa;
+
+  --team-icon-color: #afb1b8;
+  --team-icon-background: #ffffff;
+  --team-icon-hover: #ffffff;
+
+  --client-icon-color: #afb1b8;
+
+  --footer-icon-background: rgba(255, 255, 255, 0.1);
+  --footer-icon-color: #ffffff;
 }
 
 /* --------------------BASIC--------------------- */
@@ -64,7 +76,6 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid red; */
 }
 
 .section {
